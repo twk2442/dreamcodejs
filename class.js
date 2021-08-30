@@ -28,4 +28,7 @@ console.log(jina.age);
 jina.speak();
 
 //상속 다양성
-//extends
+//상속:extends
+//다양성 :매소드 오버라이딩: 필요한 함수만 다시 정의
+
+//js Mdn 참조 사이트
