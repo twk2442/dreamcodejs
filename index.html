@@ -5,6 +5,18 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="object.js"></script>
+    <input type="button" value="야간모드 on" onclick="nightMode(this)" />
+    <script>
+      function nightMode(self) {
+        // 야간모드버튼함수
+        if (self.value === "야간모드 on") {
+          document.querySelector("body").style.backgroundColor = "black";
+          self.value = "야간모드 off";
+        } else {
+          document.querySelector("body").style.backgroundColor = "white";
+          self.value = "야간모드 on";
+        }
+      }
+    </script>
   </body>
 </html>
