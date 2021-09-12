@@ -1,7 +1,7 @@
 // http :client들이 서버와 통신할 수있는지 정의 한것
 
 //ajax:웹페이지에서 서버에게 동적으로 데이터를 주고받을 수있는 기술
-
+// client(웹페이지, 앱)들이 서버와 주고받는 데이터 형식:json
 //요즘에는 json(javascript Object Notation)데이타 타입을 주고받는다
 
 //1. Object to json
@@ -33,3 +33,4 @@ console.log(obj);
 
 //유용한 사이트 jsondiff.com
 // json parser
+//
