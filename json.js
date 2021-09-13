@@ -33,4 +33,4 @@ console.log(obj);
 
 //유용한 사이트 jsondiff.com
 // json parser
-//
+// 통신
